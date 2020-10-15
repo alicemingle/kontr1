@@ -15,6 +15,6 @@ int main(void) {
     cout << endl << endl;
     D.print();
     autotest1();
-	autotest2();
+    autotest2();
     return 0;
 }
