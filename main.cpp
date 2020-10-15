@@ -1,4 +1,5 @@
 #include "CIntNR.h"
+#include "autotest.hpp"
 
 int main(void) {
     int *coords_1 = new int[LENGTH], *coords_2 = new int[LENGTH];
