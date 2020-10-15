@@ -5,6 +5,6 @@ project(CIntNR)
 include_directories(${PROJECT_SOURCE_DIR})
 
 set (INT_VECTOR_SRC  test.cpp Methods.cpp main.cpp)
-set (INT_VECTOR_HDR  CIntNR.h autotest.hpp)
+set (INT_VECTOR_HDR  CIntNR.hpp autotest.hpp)
 
 add_executable (${PROJECT_NAME} ${INT_VECTOR_SRC} ${INT_VECTOR_HDR})
