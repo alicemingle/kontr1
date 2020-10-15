@@ -14,5 +14,7 @@ int main(void) {
     C.print();
     cout << endl << endl;
     D.print();
+    autotest1();
+	autotest2();
     return 0;
 }
